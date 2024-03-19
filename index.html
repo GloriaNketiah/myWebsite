@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"> 
+  <title>Forms</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    
+  <h1>Glow Corner*: Shop like a 'Pro' on our site</h1>
+    <br>
+  <fieldset id="fieldset">
+  <legend>Profile Information</legend>
+  <label for= "name">Name:</label> 
+  <input type="text" placeholder="Name" required>
+    <br>
+  <label for= "Adress">Adress:</label>
+  <input type="text" placeholder="Adress" required>
+    <br>
+  <label for="city">City:</label>
+  <input type="text" placeholder="City" required>
+    <br>
+  <label for="state">State:</label>
+  <input type="text" placeholder="State" required>
+    <br>
+  <label for="Zip Code">Zip Code:</label>
+  <input type="text" placeholder="Zip Code" required pattern= /(\d{5})>
+    <br>
+  <label for="phone Number">Phone Number:</label>
+  <input type="text" placeholder="Phone Number" required pattern="([0-9]{3})-([0-9]{3})-([0-9]{4})">
+    <br>
+  <label for="email">Email:</label>
+  <input type="text" placeholder="Email" required>
+    <br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+  </fieldset>
+  <br>
+    <div id="my_div2">
+      <img src="baggif.gif" alt="bag" width="500" height="200">
+
+    </div>
+  <br>
+  <br>
+  <br>
+    <div id="my_div2">   
+      <img src="boots.png" alt="boots" width="200" height="200">
+      <img src="handbags.png" alt= "handbags" width="200" height="200">
+      <img src="men.png" alt="men" width="200" height="200">
+      <img src="summer.png" alt="summer" width= "200" height="200">
+      <img src="jeans.png" alt="jeans" width="200" height="200">
+      </div>
+      
+        <br>
+    <h2>Demograhic</h2>
+      <fielset>
+      <legend color="navy">Select your Race</legend></br>
+      <input type="radio" name="race" value="1">White</br>
+      <input type="radio" name="race" value="2">Black</br>
+      <input type="radio" name="race" value="3">Asian</br>
+      <input type="radio" name="race" value="4">Hispanic</br>
+      <input type="radio" name="race" value="5">Other</br>
+      </fielset>
+      <br>
+    
+    
+  <h2>Style Preference</h2> 
+    <br>
+  <form>
+  <label>Select all that apply</label>
+    <br>
+  <input type="checkbox" name="style" value="1">Chic</br>
+  <input type="checkbox" name="style" value="2">Casual</br>
+  <input type="checkbox" name="style" value="3">Sporty</br>
+  <input type="checkbox" name="style" value="4">Office</br>
+  <input type="checkbox" name="style" value="5">Lounge</br>
+  </form>
+    <br>
+    
+    <br>
+    <br>
+  <h2>Featured Items</h2>
+    <br>
+  <fieldset id= "fieldset">
+  <legend>Women:</legend> 
+  <select name="Women" size="3" multiple>
+    <option value="1">Dresses</option>
+    <option value="2">Shoes</option>
+    <option value="3">Skirts</option>
+    <option value="4">Pants</option>
+    <option value="5">Handbags</option>
+  </select>
+  </fieldset>
+    
+  <br>
+  <br>
+  <fieldset id= "fieldset">
+  <legend>Men:</legend> 
+  <select name= "Men" size="3" multiple>
+    <option value="1">Shirts</option>
+    <option value="2">Jeans Pants</option>
+    <option value="3">Suits</option>
+    <option value="4">Tie</option>
+    <option value="5">Jackets</option>
+  </select>
+    </fieldset>
+  <br>
+    <h2>Customer Feedback</h2>
+    <br>
+  
+  Comments:<br>
+    <textarea id="fieldset"  name="comment" placeholder="If you have any comments, please enter them here..."></textarea>
+    <br>
+    <input type="button" name="comment" value="Submit"> 
+    <input type="reset" name="reset" value="Reset">
+  
+    
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

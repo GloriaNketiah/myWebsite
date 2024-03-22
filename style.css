@@ -39,11 +39,21 @@ textarea {
   width: 50%;
 
 }
-#my_div3 {
-  float: roght;
-  width: 30%;
+.my_div3 {
+  float: right;
+  border: 1px solid black;
+  width: 50%;
 }
 
 #fieldset {
+  background-color: #d2c1c1;
+}
+.background {
+  background-color: #d2c1c1;
+}
+.background1 {
+  background-color: #d2c1c1;
+}
+.background2 {
   background-color: #d2c1c1;
 }
